@@ -1,0 +1,190 @@
+html{
+    background-color: #F0EAD6;
+    margin: 150px 200px;
+}
+
+body{
+    background-color: white;
+    border-radius: 1%;
+}
+
+img{
+    max-width: 90%;
+    margin: 45px 50px 10px 50px;
+    border-radius: 10px;
+}
+
+.descricao-receita h1{
+    color: #1f1e1e;
+    margin-left: 50px;
+    font-weight: 550;
+    font-size: 30px;
+    font-family: "young serif", sans-serif;
+}
+
+.descricao-receita p{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    font-family: Outfit, sans-serif;
+    font-weight: 540;
+    color: rgb(78, 84, 87);
+}
+
+.preparacao {
+    background-color: rgb(250, 237, 250);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family: Outfit, sans-serif;
+    font-size: 14px;
+    color: hsl(24, 5%, 18%);
+    
+}
+
+.preparacao h2{
+    font-size: 20px;
+    color: #872657;
+    padding: 20px 20px 10px 20px;
+}
+
+.preparacao ul{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.preparacao p{
+    padding-left: 10px;
+}
+
+.preparacao p span{
+    font-weight: bolder;
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredientes {
+    padding-bottom: 20px;
+}
+
+.ingredientes h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-family: young serif, sans-serif;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+.ingredientes ul{
+    padding-left: 80px;
+}
+
+.ingredientes ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredientes p{
+    font-family: Outfit, sans-serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+hr{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-sizing:border-box;
+    width:91%;  
+}
+
+.instrucoes{
+    padding-bottom: 20px;
+}
+
+.instrucoes h4{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: young serif, sans-serif;
+    font-weight: 300;
+}
+
+.instrucoes ol{
+    padding-left: 80px;
+}
+
+.instrucoes ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: Reem Kufi Fun, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.instrucoes p{
+    font-family: Outfit, sans-serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 15px;
+    padding-left: 15px;
+    max-width: 810px;
+}
+
+.instrucoes p span{
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+}
+
+.nutricao{
+    padding-bottom: 40px;
+}
+
+.nutricao h5{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: young serif, sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.nutricao p{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    font-family: Outfit, sans-serif;
+    font-weight: 540;
+    color: rgb(78, 84, 87);
+}
+
+.nutricao table .tipo{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    font-family: Outfit, sans-serif;
+    font-weight: 540;
+    color: rgb(78, 84, 87);
+}
+
+.nutricao table .valor{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    font-family: Reem Kufi Fun, sans-serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+
+table {
+    margin-left: 50px;
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+table tr {
+    border-bottom: 1px solid rgb(192, 189, 189);
+}
+  
+table tr:last-child {
+    border: 0;
+}
+
+table tr td:last-child{
+    padding-bottom: 50px;
+}

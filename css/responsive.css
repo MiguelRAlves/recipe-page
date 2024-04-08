@@ -1,0 +1,50 @@
+@media(max-width: 979px) {
+
+    html {
+        margin: 10px 0px;
+    }
+
+    img{
+        max-width: 75%;
+    }
+
+    .preparacao{
+        margin-left: 15px;
+        margin-right: 2px;
+        max-width: 90%;
+    }
+
+    .ingredientes{
+        max-width: 75%;
+    }
+
+    .instrucoes{
+        max-width: 75%;
+    }
+
+    .nutricao{
+        max-width: 75%;
+    }
+}
+@media( max-width: 1360px){
+
+    html {
+        margin: 40px 60px;
+    }
+
+    img{
+        max-width: 70%;
+    }
+
+    .ingredientes{
+        max-width: 80%;
+    }
+
+    .instrucoes{
+        max-width: 80%;
+    }
+
+    .nutricao{
+        max-width: 80%;
+    }
+}
